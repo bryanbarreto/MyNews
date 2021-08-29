@@ -55,7 +55,6 @@ public class Network {
                 completion(.failure(APIError.parse(error)))
             }
         }
-        
         task.resume()
     }
 }

@@ -13,6 +13,9 @@
 		C3FF2E7626DC0B3C005D8280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3FF2E7526DC0B3C005D8280 /* Assets.xcassets */; };
 		C3FF2E7926DC0B3C005D8280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3FF2E7726DC0B3C005D8280 /* LaunchScreen.storyboard */; };
 		C3FF2E8726DC109E005D8280 /* MyNewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF2E8626DC109E005D8280 /* MyNewsTests.swift */; };
+		C3FF2EB926DC2A92005D8280 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF2EB826DC2A92005D8280 /* Network.swift */; };
+		C3FF2EBB26DC2AA7005D8280 /* ExposableEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF2EBA26DC2AA7005D8280 /* ExposableEndpoint.swift */; };
+		C3FF2EBD26DC2AB8005D8280 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF2EBC26DC2AB8005D8280 /* APIError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,6 +28,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C3FF2EAD26DC137F005D8280 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		C3FF2E6926DC0B3B005D8280 /* MyNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FF2E6C26DC0B3B005D8280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +52,9 @@
 		C3FF2E8426DC109E005D8280 /* MyNewsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNewsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3FF2E8626DC109E005D8280 /* MyNewsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNewsTests.swift; sourceTree = "<group>"; };
 		C3FF2E8826DC109E005D8280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3FF2EB826DC2A92005D8280 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		C3FF2EBA26DC2AA7005D8280 /* ExposableEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposableEndpoint.swift; sourceTree = "<group>"; };
+		C3FF2EBC26DC2AB8005D8280 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +96,7 @@
 		C3FF2E6B26DC0B3B005D8280 /* MyNews */ = {
 			isa = PBXGroup;
 			children = (
+				C3FF2EB726DC2A88005D8280 /* Network */,
 				C3FF2E6C26DC0B3B005D8280 /* AppDelegate.swift */,
 				C3FF2E6E26DC0B3B005D8280 /* SceneDelegate.swift */,
 				C3FF2E7026DC0B3B005D8280 /* ViewController.swift */,
@@ -96,6 +116,16 @@
 			path = MyNewsTests;
 			sourceTree = "<group>";
 		};
+		C3FF2EB726DC2A88005D8280 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C3FF2EB826DC2A92005D8280 /* Network.swift */,
+				C3FF2EBA26DC2AA7005D8280 /* ExposableEndpoint.swift */,
+				C3FF2EBC26DC2AB8005D8280 /* APIError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +136,7 @@
 				C3FF2E6526DC0B3B005D8280 /* Sources */,
 				C3FF2E6626DC0B3B005D8280 /* Frameworks */,
 				C3FF2E6726DC0B3B005D8280 /* Resources */,
+				C3FF2EAD26DC137F005D8280 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -197,7 +228,10 @@
 			files = (
 				C3FF2E7126DC0B3B005D8280 /* ViewController.swift in Sources */,
 				C3FF2E6D26DC0B3B005D8280 /* AppDelegate.swift in Sources */,
+				C3FF2EB926DC2A92005D8280 /* Network.swift in Sources */,
 				C3FF2E6F26DC0B3B005D8280 /* SceneDelegate.swift in Sources */,
+				C3FF2EBB26DC2AA7005D8280 /* ExposableEndpoint.swift in Sources */,
+				C3FF2EBD26DC2AB8005D8280 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

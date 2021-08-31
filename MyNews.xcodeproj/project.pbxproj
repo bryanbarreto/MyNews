@@ -16,6 +16,7 @@
 		C3FF2EB926DC2A92005D8280 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF2EB826DC2A92005D8280 /* Network.swift */; };
 		C3FF2EBB26DC2AA7005D8280 /* ExposableEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF2EBA26DC2AA7005D8280 /* ExposableEndpoint.swift */; };
 		C3FF2EBD26DC2AB8005D8280 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF2EBC26DC2AB8005D8280 /* APIError.swift */; };
+		C3FF2EC226DDBFAA005D8280 /* MainTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3FF2EC126DDBFAA005D8280 /* MainTabbar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		C3FF2EB826DC2A92005D8280 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		C3FF2EBA26DC2AA7005D8280 /* ExposableEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposableEndpoint.swift; sourceTree = "<group>"; };
 		C3FF2EBC26DC2AB8005D8280 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		C3FF2EC126DDBFAA005D8280 /* MainTabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabbar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		C3FF2E6B26DC0B3B005D8280 /* MyNews */ = {
 			isa = PBXGroup;
 			children = (
+				C3FF2EBE26DDBF79005D8280 /* Scenes */,
 				C3FF2EB726DC2A88005D8280 /* Network */,
 				C3FF2E6C26DC0B3B005D8280 /* AppDelegate.swift */,
 				C3FF2E6E26DC0B3B005D8280 /* SceneDelegate.swift */,
@@ -124,6 +127,30 @@
 				C3FF2EBC26DC2AB8005D8280 /* APIError.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		C3FF2EBE26DDBF79005D8280 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C3FF2EC026DDBFA1005D8280 /* MainTabbar */,
+				C3FF2EBF26DDBF88005D8280 /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		C3FF2EBF26DDBF88005D8280 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C3FF2EC026DDBFA1005D8280 /* MainTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				C3FF2EC126DDBFAA005D8280 /* MainTabbar.swift */,
+			);
+			path = MainTabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +259,7 @@
 				C3FF2E6F26DC0B3B005D8280 /* SceneDelegate.swift in Sources */,
 				C3FF2EBB26DC2AA7005D8280 /* ExposableEndpoint.swift in Sources */,
 				C3FF2EBD26DC2AB8005D8280 /* APIError.swift in Sources */,
+				C3FF2EC226DDBFAA005D8280 /* MainTabbar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
